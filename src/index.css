@@ -1,72 +1,55 @@
+/* Semplicità e pulizia per Exami */
 body {
-  background: linear-gradient(135deg, #e3f0ff 0%, #f8fbff 100%);
+  background: #f6f8fa;
   min-height: 100vh;
 }
 
-.table thead th {
-  vertical-align: middle;
-}
-
-h1, h3 {
-  font-weight: 600;
-}
-
 h1 {
-  margin-bottom: 2.5rem;
-  font-size: 2.4rem;
-  color: #0d6efd;
-  letter-spacing: 1px;
-  text-shadow: 0 2px 8px rgba(13,110,253,0.08);
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #222;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-shadow: none;
 }
 
 .card, .table, .form-control, .btn {
-  border-radius: 1rem !important;
+  border-radius: 0.5rem !important;
 }
 
 .card {
-  margin-bottom: 2.5rem;
-  box-shadow: 0 4px 24px rgba(13,110,253,0.10);
-  border: none;
-  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: none;
+  border: 1px solid #e0e0e0;
+  padding: 1.5rem 1rem 1rem 1rem;
 }
 
 hr.my-4 {
-  border-top: 2px solid #0d6efd33;
-  margin: 3rem 0;
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 950px;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .card {
-    padding: 2.5rem 2rem 2rem 2rem;
-  }
+  border-top: 1px solid #e0e0e0;
+  margin: 2rem 0;
 }
 
 .form-label {
   font-weight: 600;
-  color: #0d6efd;
+  color: #333;
 }
 
 .table {
   background: #fff;
-  box-shadow: 0 2px 8px rgba(13,110,253,0.07);
-  border: none;
+  box-shadow: none;
+  border: 1px solid #e0e0e0;
   margin-bottom: 0;
 }
 
 .btn-primary, .btn-outline-primary {
-  background: #0d6efd;
-  border-color: #0d6efd;
+  background: #2563eb;
+  border-color: #2563eb;
   color: #fff;
 }
 
 .btn-primary:hover, .btn-outline-primary:hover {
-  background: #084298;
-  border-color: #084298;
+  background: #1d4ed8;
+  border-color: #1d4ed8;
   color: #fff;
 }
 
@@ -78,6 +61,22 @@ hr.my-4 {
 .btn-danger:hover {
   background: #a71d2a;
   border-color: #a71d2a;
+}
+
+.container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 900px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .card {
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+  }
 }
 
 /* Stile pagina grafici */

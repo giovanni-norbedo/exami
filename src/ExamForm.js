@@ -62,7 +62,7 @@ function ExamForm({ onAdd, editing, onUpdate, onCancel }) {
           <strong>Legenda voti:</strong> <br/>
           <span><b>18-30</b>: voto numerico<br/>
           <b>30L</b>: trenta e lode<br/>
-          <b>APP</b>: idoneità<br/>
+          <b>APP</b>: esame passato (idoneità o superato senza voto)<br/>
           <b>NULL</b>: esame non valutato o non superato</span>
         </div>
         <button type="submit" className="btn btn-primary me-2">{editing ? 'Salva' : 'Aggiungi'}</button>
