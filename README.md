@@ -17,7 +17,7 @@
 ## Come iniziare
 1. **Clona la repo:**
    ```sh
-   git clone https://github.com/yourusername/exami.git
+   git clone https://github.com/giovanni-norbedo/exami.git
    cd exami
    ```
 2. **Installa le dipendenze:**
